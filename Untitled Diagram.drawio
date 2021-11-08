@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T09:15:04.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Dh4EYsGzPvgWBiPHwZqb" version="15.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-08T09:33:59.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="jTthMPYviuRYYaKbhiAA" version="15.6.3" type="github">
   <diagram id="6VtxzAlu4cTuDUli-qYp" name="Page-1">
     <mxGraphModel dx="1874" dy="1196" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -230,17 +230,23 @@
         <mxCell id="o4OjGKUyzqgKAnLbVWgZ-105" value="还款成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="1966" y="760" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="o4OjGKUyzqgKAnLbVWgZ-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="o4OjGKUyzqgKAnLbVWgZ-107" target="o4OjGKUyzqgKAnLbVWgZ-97">
+        <mxCell id="o4OjGKUyzqgKAnLbVWgZ-115" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="o4OjGKUyzqgKAnLbVWgZ-107" target="o4OjGKUyzqgKAnLbVWgZ-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4OjGKUyzqgKAnLbVWgZ-107" value="更新提前还款记录和还款记录状态为还款成功" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="2106" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="2116" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o4OjGKUyzqgKAnLbVWgZ-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="o4OjGKUyzqgKAnLbVWgZ-111" target="o4OjGKUyzqgKAnLbVWgZ-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o4OjGKUyzqgKAnLbVWgZ-111" value="更新提前还款记录和还款记录状态为还款失败" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="1946" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4OjGKUyzqgKAnLbVWgZ-116" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1" source="o4OjGKUyzqgKAnLbVWgZ-114" target="o4OjGKUyzqgKAnLbVWgZ-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4OjGKUyzqgKAnLbVWgZ-114" value="发送还款成功消息" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="2306" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
