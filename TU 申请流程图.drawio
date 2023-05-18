@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T07:24:58.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.14" etag="kNQuvCndzLkOMxdRND4U" type="github"><diagram name="Page-1" id="31dhIgdWWiiN4gVW6aO_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-05-18T07:56:08.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LFQF5iA-5bBgSX0iVdys" version="20.8.14" type="github">
+  <diagram name="Page-1" id="31dhIgdWWiiN4gVW6aO_">
+    <mxGraphModel dx="1434" dy="708" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bst0LnU-Npar3bB6vKzg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-1" target="bst0LnU-Npar3bB6vKzg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-1" value="TU application" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="252" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-6" value="入参：idNumber-证件号&lt;br&gt;reapplyAfterSixtydays-是否超过60天重新申请&lt;br&gt;&lt;br&gt;出参：withinSixtyDays-是否在60天以内&lt;br&gt;tuApplicationNumber-TU申请单号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="209" y="188" width="222" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-9" target="bst0LnU-Npar3bB6vKzg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-9" value="根据idNumber查询TU申请表最新的一条记录" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="252" y="482" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-15" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-11" target="bst0LnU-Npar3bB6vKzg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-20" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-11" target="bst0LnU-Npar3bB6vKzg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-11" value="记录为空" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="272" y="604" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-14" target="bst0LnU-Npar3bB6vKzg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-14" value="创建一笔新的TU 申请单" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="252" y="746" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-16" value="返回tuApplication，&lt;br&gt;withinSixtyDays" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="252" y="909" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-19" target="bst0LnU-Npar3bB6vKzg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="bst0LnU-Npar3bB6vKzg-21">
+          <mxGeometry x="-0.6087" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-19" target="bst0LnU-Npar3bB6vKzg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-33" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="bst0LnU-Npar3bB6vKzg-24">
+          <mxGeometry x="-0.3657" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-19" value="tuCheckingDate为空" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="538" y="604" width="131" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-23" target="bst0LnU-Npar3bB6vKzg-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-34" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="bst0LnU-Npar3bB6vKzg-30">
+          <mxGeometry x="-0.1642" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-23" target="bst0LnU-Npar3bB6vKzg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-38" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="bst0LnU-Npar3bB6vKzg-36">
+          <mxGeometry x="-0.3377" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-23" value="在60天内" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="823" y="605" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-28" target="bst0LnU-Npar3bB6vKzg-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="863" y="989" />
+              <mxPoint x="312" y="989" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-28" value="withinSixtyDays=Y" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="803" y="819" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-35" target="bst0LnU-Npar3bB6vKzg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-35" value="withinSixtyDays=N" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-42" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-39" target="bst0LnU-Npar3bB6vKzg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-39" target="bst0LnU-Npar3bB6vKzg-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="823" />
+              <mxPoint x="1220" y="1111" />
+              <mxPoint x="282" y="1111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-46" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="bst0LnU-Npar3bB6vKzg-45">
+          <mxGeometry x="-0.5194" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-39" value="reapplyAfterSixtydays=Y?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1034.25" y="766" width="165.5" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="bst0LnU-Npar3bB6vKzg-41" target="bst0LnU-Npar3bB6vKzg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bst0LnU-Npar3bB6vKzg-41" value="创建一笔新的审批单" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="964" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
