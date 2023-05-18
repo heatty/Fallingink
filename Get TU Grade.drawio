@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T07:58:29.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.14" etag="3IBDGMYxQJw6T4_4Bjy0" type="github"><diagram name="Page-1" id="XkNb2w2cMBW71ntehkIj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-05-18T08:33:16.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8OeNVx7RK1-afxtFKsS5" version="20.8.14" type="github">
+  <diagram name="Page-1" id="XkNb2w2cMBW71ntehkIj">
+    <mxGraphModel dx="1834" dy="708" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-RHZBV0u88pga-UJylV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-1" target="N-RHZBV0u88pga-UJylV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-1" value="Get Tu Grade" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="248" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-4" target="N-RHZBV0u88pga-UJylV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-4" value="根据审批单号获取对应的担保人列表数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="419" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-11" target="N-RHZBV0u88pga-UJylV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-11" value="根据idNumber查询TU申请单" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="948" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-13" target="N-RHZBV0u88pga-UJylV-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-17" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="N-RHZBV0u88pga-UJylV-16">
+          <mxGeometry x="-0.2426" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-13" target="N-RHZBV0u88pga-UJylV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-13" value="申请单不为空且tuCheckingDate不为空" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="231.5" y="1084" width="123" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-23" target="N-RHZBV0u88pga-UJylV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-27" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="N-RHZBV0u88pga-UJylV-26">
+          <mxGeometry x="0.3049" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-29" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-23" target="N-RHZBV0u88pga-UJylV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-23" value="列表为空" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="253" y="526" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-25" value="抛异常提示" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="879" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-28" target="N-RHZBV0u88pga-UJylV-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-28" value="i=0" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="682" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-34" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-32" target="N-RHZBV0u88pga-UJylV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-32" target="N-RHZBV0u88pga-UJylV-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-32" value="i&amp;lt;列表个数" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="253" y="792" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-36" target="N-RHZBV0u88pga-UJylV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-36" value="更新grade为最低值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="1375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="764" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="353" y="1532" />
+              <mxPoint x="449" y="1532" />
+              <mxPoint x="449" y="764" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-39" value="++i" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="233" y="1512" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-43" value="返回grade" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-14" y="802" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="N-RHZBV0u88pga-UJylV-45" target="N-RHZBV0u88pga-UJylV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-RHZBV0u88pga-UJylV-45" value="TU解析获取grade" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="233" y="1242" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
