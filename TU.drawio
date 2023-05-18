@@ -1,1 +1,180 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T05:40:57.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.14" etag="jmZkuJjMJbHDaH9wju48" type="github"><diagram name="Page-1" id="pf1FkglVEyKHe46EuO7T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-05-18T07:56:14.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wPwaYkdi90e6Jpm8p-w1" version="20.8.14" type="github">
+  <diagram name="Page-1" id="pf1FkglVEyKHe46EuO7T">
+    <mxGraphModel dx="1834" dy="708" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-3" value="TU 申请" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="124" y="228" width="100" height="1899" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-3">
+          <mxGeometry x="45" y="1004" width="10" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-45" value="校验通过" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-3" target="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="0.0021" width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="1019" as="sourcePoint" />
+            <mxPoint x="136" y="1019" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-49" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-3" source="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1066" as="sourcePoint" />
+            <mxPoint x="55" y="1066" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-3">
+          <mxGeometry x="45" y="864" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-7" value="TU 审批" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="372" y="228" width="100" height="1903" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="45" y="1011" width="10" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="45" y="1175" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-48" value="创建审批流" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" target="2ylZAH5Y2h0go4qi5tfj-47" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1155" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="45" y="1298" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-51" value="check&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" target="2ylZAH5Y2h0go4qi5tfj-50" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1278" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="45" y="1398" width="10" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-55" value="请求查询TU报告" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-7" target="2ylZAH5Y2h0go4qi5tfj-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="1418" as="sourcePoint" />
+            <mxPoint x="135" y="1418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-56" value="返回响应结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-7" source="2ylZAH5Y2h0go4qi5tfj-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="1468" as="sourcePoint" />
+            <mxPoint x="56" y="1468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry x="50" y="1523" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-65" value="针对结果做对应处理" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" target="2ylZAH5Y2h0go4qi5tfj-64" parent="2ylZAH5Y2h0go4qi5tfj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1503" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-8" value="RLN TU" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="646" y="228" width="100" height="1898" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-8">
+          <mxGeometry x="45" y="1412" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-9" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="373" width="534" height="574" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-11" value="RM" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="228" width="43" height="1905" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-28" value="TU application" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" target="2ylZAH5Y2h0go4qi5tfj-27">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="23" y="276" as="sourcePoint" />
+            <mxPoint x="103" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-29" value="返回对应的TU单号和是否60天内标识，&lt;br&gt;并且前端显示对应提示信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.2;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="329.03999999999996" as="sourcePoint" />
+            <mxPoint x="21" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-32" value="TU application" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.3;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" target="2ylZAH5Y2h0go4qi5tfj-31">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="24" y="477" as="sourcePoint" />
+            <mxPoint x="104" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-33" value="返回对应的TU单号和是否60天内标识，&lt;br&gt;前端弹窗提示是否确认是否重新发起申请" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.2;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" source="2ylZAH5Y2h0go4qi5tfj-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="102" y="528" as="sourcePoint" />
+            <mxPoint x="22" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-36" value="TU application" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" target="2ylZAH5Y2h0go4qi5tfj-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="24" y="637" as="sourcePoint" />
+            <mxPoint x="104" y="637" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="2ylZAH5Y2h0go4qi5tfj-11">
+          <mxGeometry x="16.5" y="847" width="10" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-58" value="返回响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" source="2ylZAH5Y2h0go4qi5tfj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="107" y="927" as="sourcePoint" />
+            <mxPoint x="27" y="927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-60" value="提交TU 申请单" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" target="2ylZAH5Y2h0go4qi5tfj-3">
+          <mxGeometry x="-0.1477" y="6" width="80" relative="1" as="geometry">
+            <mxPoint x="27" y="1007" as="sourcePoint" />
+            <mxPoint x="107" y="1007" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-61" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="2ylZAH5Y2h0go4qi5tfj-11" source="2ylZAH5Y2h0go4qi5tfj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="107" y="1075" as="sourcePoint" />
+            <mxPoint x="27" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-23" value="[idNumber在tu表中存在并且日期在60天内]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-173" y="436" width="126" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="169" y="482" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-30" value="[idNumber在tu表中存在并且日期在60天外]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-188" y="651" width="128" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="169" y="687" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="169" y="851" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-37" value="[Else]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="831" width="128" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-38" value="创建一个TU申请单，&lt;br&gt;前端调整到TU申请页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.2;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="1" source="2ylZAH5Y2h0go4qi5tfj-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="919" as="sourcePoint" />
+            <mxPoint x="-40" y="919" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ylZAH5Y2h0go4qi5tfj-42" value="TU 编辑、保存" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="1" target="2ylZAH5Y2h0go4qi5tfj-57">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-33.5" y="1105" as="sourcePoint" />
+            <mxPoint x="174" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
