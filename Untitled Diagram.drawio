@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T02:44:25.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="W9a7AT0M_zqcthDWTjCl" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T07:36:45.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mVZkCHdxIDHQt_bmBiEp" version="24.6.4" type="github">
   <diagram name="Page-1" id="G6Fa5eHBTJbQEx8plgCm">
     <mxGraphModel dx="2234" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -148,16 +148,13 @@
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="7yZGR6YTy9lkh_QmW3TC-60" target="7yZGR6YTy9lkh_QmW3TC-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7yZGR6YTy9lkh_QmW3TC-60" target="lp0c0494INYD645WTaB0-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-60" value="根据客户号更新客户账号信息表状态为2" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-133" y="2227" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="7yZGR6YTy9lkh_QmW3TC-62" target="7yZGR6YTy9lkh_QmW3TC-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7yZGR6YTy9lkh_QmW3TC-62" value="根据客户号和申请单号调用MKS接口发放开户奖励" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="7yZGR6YTy9lkh_QmW3TC-62" value="根据客户号和申请单号调用MKS接口发放开户奖励" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-133" y="2419" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="7yZGR6YTy9lkh_QmW3TC-65" target="7yZGR6YTy9lkh_QmW3TC-68" edge="1">
@@ -185,7 +182,10 @@
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-68" value="开户奖励非空且邀请码类型非6，7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-133" y="2801" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7yZGR6YTy9lkh_QmW3TC-70" value="根据客户号更新客户账号信息表状态为9" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="lp0c0494INYD645WTaB0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7yZGR6YTy9lkh_QmW3TC-70" target="lp0c0494INYD645WTaB0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7yZGR6YTy9lkh_QmW3TC-70" value="根据客户号更新客户账号信息表状态为9" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-380" y="2821" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="7yZGR6YTy9lkh_QmW3TC-73" target="7yZGR6YTy9lkh_QmW3TC-76" edge="1">
@@ -230,20 +230,29 @@
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-89" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* MGM邀请码(EOB)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static final Integer REDEEM_CODE_TYPE_MGM = 6;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* 广告邀请码(EOB)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static final Integer REDEEM_CODE_TYPE_ADVERTISING = 7;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="72" y="2766" width="397" height="181" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-1" target="lp0c0494INYD645WTaB0-4">
+        <mxCell id="lp0c0494INYD645WTaB0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-11" target="lp0c0494INYD645WTaB0-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-1" value="查询发送邮箱" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="146" y="2227" width="100" height="100" as="geometry" />
+        <mxCell id="lp0c0494INYD645WTaB0-11" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="2323" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-4" target="7yZGR6YTy9lkh_QmW3TC-65">
+        <mxCell id="lp0c0494INYD645WTaB0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-12" target="lp0c0494INYD645WTaB0-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-4" value="发送邮件" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="146" y="2419" width="100" height="100" as="geometry" />
+        <mxCell id="lp0c0494INYD645WTaB0-12" value="根据客户号查询核心客户信息获取RM跟开户渠道" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2463" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-7" value="红色为现有流程&lt;div&gt;绿色为改动流程&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="271" y="2551" width="188" height="42" as="geometry" />
+        <mxCell id="lp0c0494INYD645WTaB0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-14" target="lp0c0494INYD645WTaB0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lp0c0494INYD645WTaB0-14" value="根据活期账户查询核心活期余额接口获取执行利率" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2603" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lp0c0494INYD645WTaB0-18" value="组装数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="2764" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lp0c0494INYD645WTaB0-20" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="2678" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
