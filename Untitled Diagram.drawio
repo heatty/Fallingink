@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:42:47.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7M6iXbv2-Tz0RhEhnINX" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="G6Fa5eHBTJbQEx8plgCm">
     <mxGraphModel dx="2234" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-68" value="开户奖励非空且邀请码类型非6，7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-133" y="2801" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7yZGR6YTy9lkh_QmW3TC-70" target="lp0c0494INYD645WTaB0-20">
+        <mxCell id="lp0c0494INYD645WTaB0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7yZGR6YTy9lkh_QmW3TC-70" target="lp0c0494INYD645WTaB0-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-70" value="根据客户号更新客户账号信息表状态为9" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -230,29 +230,41 @@
         <mxCell id="7yZGR6YTy9lkh_QmW3TC-89" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* MGM邀请码(EOB)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static final Integer REDEEM_CODE_TYPE_MGM = 6;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* 广告邀请码(EOB)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static final Integer REDEEM_CODE_TYPE_ADVERTISING = 7;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="72" y="2766" width="397" height="181" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-11" target="lp0c0494INYD645WTaB0-12">
+        <mxCell id="lp0c0494INYD645WTaB0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="lp0c0494INYD645WTaB0-11" target="lp0c0494INYD645WTaB0-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-11" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="lp0c0494INYD645WTaB0-11" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-545" y="2323" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-12" target="lp0c0494INYD645WTaB0-14">
+        <mxCell id="lp0c0494INYD645WTaB0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="lp0c0494INYD645WTaB0-12" target="lp0c0494INYD645WTaB0-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-12" value="根据客户号查询核心客户信息获取RM跟开户渠道" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="lp0c0494INYD645WTaB0-12" value="根据客户号查询核心客户信息获取RM跟开户渠道" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-555" y="2463" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-14" target="lp0c0494INYD645WTaB0-18">
+        <mxCell id="enanLcYGxRLCyGgx1AOk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lp0c0494INYD645WTaB0-14" target="enanLcYGxRLCyGgx1AOk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-14" value="根据活期账户查询核心活期余额接口获取执行利率" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="lp0c0494INYD645WTaB0-14" value="根据活期账户查询核心活期余额接口获取执行利率" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-555" y="2603" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-18" value="组装数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-545" y="2764" width="100" height="60" as="geometry" />
+        <mxCell id="lp0c0494INYD645WTaB0-18" value="组装数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-545" y="2997" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lp0c0494INYD645WTaB0-20" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="lp0c0494INYD645WTaB0-20" value="数据上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-380" y="2678" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enanLcYGxRLCyGgx1AOk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="enanLcYGxRLCyGgx1AOk-1" target="enanLcYGxRLCyGgx1AOk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enanLcYGxRLCyGgx1AOk-1" value="根据客户号查询卡券列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2733" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="enanLcYGxRLCyGgx1AOk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="enanLcYGxRLCyGgx1AOk-3" target="lp0c0494INYD645WTaB0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enanLcYGxRLCyGgx1AOk-3" value="根据卡券号查询卡券明细" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-555" y="2861" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
