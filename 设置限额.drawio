@@ -1,9 +1,170 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="8yihoApkiAtXSkPQlNJM">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-1" target="LNn6B9Pk2fJZ-hl6GXA7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-1" value="设置限额反显" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="211" y="84" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-2" target="LNn6B9Pk2fJZ-hl6GXA7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-2" value="查询是否存在待审批的限额" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="284" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-4" target="LNn6B9Pk2fJZ-hl6GXA7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-12" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-10">
+          <mxGeometry x="-0.0423" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-4" target="LNn6B9Pk2fJZ-hl6GXA7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-14" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-13">
+          <mxGeometry x="0.0444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-4" value="存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="414" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-6" target="LNn6B9Pk2fJZ-hl6GXA7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-6" value="查询是否存在正常状态的限额" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="584" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-9" value="抛异常" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="443" y="424" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-15" target="LNn6B9Pk2fJZ-hl6GXA7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-21">
+          <mxGeometry x="-0.225" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-15" target="LNn6B9Pk2fJZ-hl6GXA7-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="787" y="754" />
+              <mxPoint x="787" y="1694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-50" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-49">
+          <mxGeometry x="-0.6025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-15" value="存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="714" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-20" target="LNn6B9Pk2fJZ-hl6GXA7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-25" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-24">
+          <mxGeometry x="0.0062" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-20" target="LNn6B9Pk2fJZ-hl6GXA7-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-28" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-27">
+          <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-20" value="MODIFY_FLAG为N" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="874" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-23" value="抛异常" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="462" y="884" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-26" target="LNn6B9Pk2fJZ-hl6GXA7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-26" value="根据记录的PREF_ID查询表corp_preference" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1044" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-29" target="LNn6B9Pk2fJZ-hl6GXA7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-31">
+          <mxGeometry x="-0.526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-29" target="LNn6B9Pk2fJZ-hl6GXA7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-37" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-34">
+          <mxGeometry x="-0.175" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-29" value="记录不存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="1174" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-33" target="LNn6B9Pk2fJZ-hl6GXA7-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-33" value="记录状态跟审批状态均为0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="1334" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-33" target="LNn6B9Pk2fJZ-hl6GXA7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-36" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="LNn6B9Pk2fJZ-hl6GXA7-35">
+          <mxGeometry x="-0.5269" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-40" target="LNn6B9Pk2fJZ-hl6GXA7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-40" value="记录BANK_LIMIT为空？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="1494" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-42" target="LNn6B9Pk2fJZ-hl6GXA7-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-42" value="设置对应限额" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-44" value="&lt;div&gt;app.cib.util.limit.LimitUtils&lt;/div&gt;&lt;div&gt;以下几个字段设置为最大限额：999999999999.99&lt;/div&gt;&lt;div&gt;bankLimit&lt;/div&gt;&lt;div&gt;limit1&lt;/div&gt;&lt;div&gt;limit7&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1469" width="310" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="LNn6B9Pk2fJZ-hl6GXA7-45" target="LNn6B9Pk2fJZ-hl6GXA7-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-45" value="查询账户名称" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="1804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-47" value="组装数据，返回" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="211" y="1959" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-51" value="&lt;div&gt;配置在apollo：&lt;/div&gt;&lt;div&gt;bankDailyLimit：account.bank.max.daily.limit：999999999999.99&lt;/div&gt;&lt;div&gt;otherBankDailyLimit：account.other_bank.max.daily.limit：200000000.00&lt;/div&gt;&lt;div&gt;payrollDailyLimit：account.payroll_limit.max.daily.limit：50000000.00&lt;/div&gt;&lt;div&gt;currency：defaultCurrency：HKD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置在业务参数表：&lt;/div&gt;&lt;div&gt;bankMaxMonthLimit：ops_control_bank_max_month_limit：999999999999.99&lt;/div&gt;&lt;div&gt;otherBankMaxMonthLimit：ops_control_other_bank_max_month_limit：330000000.00&lt;/div&gt;&lt;div&gt;payrollMaxMonthLimit：ops_control_payroll_max_month_limit：330000000.00&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-273" y="1597" width="651" height="207" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-52" value="&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;根据公司id跟账号以及状态=&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: rgb(0, 153, 0) !important;&quot; class=&quot;java value&quot;&gt;1&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;（待审批状态）查询限额表txn_limit&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="261" width="341" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-53" value="&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;根据公司id跟账号以及状态=&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: rgb(0, 153, 0) !important;&quot; class=&quot;java value&quot;&gt;0&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;（正常状态）查询限额表txn_limit&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-123" y="562.5" width="272" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="LNn6B9Pk2fJZ-hl6GXA7-54" value="&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;根据账号查询corp_account accountType not in (&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: rgb(42, 0, 255) !important;&quot; class=&quot;java string&quot;&gt;&#39;&#39;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;,&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: rgb(42, 0, 255) !important;&quot; class=&quot;java string&quot;&gt;&#39;CA&#39;&lt;/code&gt;&lt;code style=&quot;font-family: Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border: 0px; inset: auto; float: none; height: auto; line-height: 20px; margin: 0px; outline: 0px; overflow: visible; padding: 0px; position: static; text-align: left; vertical-align: baseline; width: auto; box-sizing: content-box; font-size: 14px; min-height: inherit; text-wrap: nowrap; color: black !important;&quot; class=&quot;java plain&quot;&gt;)&quot;&lt;/code&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="358" y="1791" width="511" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
