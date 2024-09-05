@@ -1,9 +1,147 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="K3gKeXfkEaXai-wfxe_M">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sGchhpKF47FbVZYP23dr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-1" target="sGchhpKF47FbVZYP23dr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-1" value="限额设置提交" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="150" y="19" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-2" target="sGchhpKF47FbVZYP23dr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-2" value="判断设置是否超过限额配置" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="159" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-4" target="sGchhpKF47FbVZYP23dr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-8" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-7">
+          <mxGeometry x="0.2055" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-4" target="sGchhpKF47FbVZYP23dr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-10">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-4" value="超过上限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="289" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-6" value="抛异常" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="386" y="299" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-9" target="sGchhpKF47FbVZYP23dr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-13" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-11">
+          <mxGeometry x="-0.4233" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-9" target="sGchhpKF47FbVZYP23dr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-15">
+          <mxGeometry x="-0.275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-9" value="超过月限额上限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="449" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-14" target="sGchhpKF47FbVZYP23dr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-21" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-20">
+          <mxGeometry x="-0.225" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-14" value="超过第三方交易月限额上限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="609" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-14" target="sGchhpKF47FbVZYP23dr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-17" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-16">
+          <mxGeometry x="-0.5545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-19" target="sGchhpKF47FbVZYP23dr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-26" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-25">
+          <mxGeometry x="0.0222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-19" value="超过支薪服务月限额上限" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="769" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-19" target="sGchhpKF47FbVZYP23dr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-23" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-22">
+          <mxGeometry x="-0.7023" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-24" target="sGchhpKF47FbVZYP23dr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-24" value="查询限额表txn_limit" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="939" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-27" target="sGchhpKF47FbVZYP23dr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-31" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="sGchhpKF47FbVZYP23dr-30">
+          <mxGeometry x="-0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-27" target="sGchhpKF47FbVZYP23dr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-27" value="记录不存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1069" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-29" target="sGchhpKF47FbVZYP23dr-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-29" value="创建一个新对象" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1239" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-32" value="更新记录" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1079" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-36" value="组装数据，返回" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1414" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sGchhpKF47FbVZYP23dr-32" target="sGchhpKF47FbVZYP23dr-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-39" value="&lt;div&gt;限额参数：&lt;/div&gt;&lt;div&gt;配置在apollo：&lt;/div&gt;&lt;div&gt;bankDailyLimit(account.bank.max.daily.limit)：999999999999.99&lt;/div&gt;&lt;div&gt;otherBankDailyLimit(account.other_bank.max.daily.limit)：200000000.00&lt;/div&gt;&lt;div&gt;payrollDailyLimit(account.payroll_limit.max.daily.limit)：50000000.00&lt;/div&gt;&lt;div&gt;currency(defaultCurrency)：HKD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置在业务参数表：&lt;/div&gt;&lt;div&gt;bankMaxMonthLimit(ops_control_bank_max_month_limit)：999999999999.99&lt;/div&gt;&lt;div&gt;otherBankMaxMonthLimit(ops_control_other_bank_max_month_limit)：330000000.00&lt;/div&gt;&lt;div&gt;payrollMaxMonthLimit(ops_control_payroll_max_month_limit)：330000000.00&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;// 行内同名账户转账ZA BANK Same-Name Account Transfer&lt;/div&gt;&lt;div&gt;bankMonthLimit(Monthly Limit)&lt;/div&gt;&lt;div&gt;bankLimit(Daily Limit)&lt;/div&gt;&lt;div&gt;limit1(ZA Same-Name Account Transfer Daily)&lt;/div&gt;&lt;div&gt;limit7(Time Deposit Daily)&lt;/div&gt;&lt;div&gt;限制：&lt;/div&gt;&lt;div&gt;bankLimit&amp;lt;=bankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit1&amp;lt;=bankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit7&amp;lt;=bankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit1&amp;lt;=bankLimit&lt;/div&gt;&lt;div&gt;limit7&amp;lt;=bankLimit&lt;/div&gt;&lt;div&gt;bankMonthLimit&amp;lt;=bankMaxMonthLimit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;// 第三方转账Third Part Account Transfer&lt;/div&gt;&lt;div&gt;otherBankMonthLimit(Monthly Limit)&lt;/div&gt;&lt;div&gt;otherBankLimit(Daily Limit)&lt;/div&gt;&lt;div&gt;limit3(Local Third Party Account Transfer Daily)&lt;/div&gt;&lt;div&gt;limit4(Overseas Bank Account Transfer Daily)&lt;/div&gt;&lt;div&gt;limit11(Bath Payment Daily)&lt;/div&gt;&lt;div&gt;限制：&lt;/div&gt;&lt;div&gt;otherBankLimit&amp;lt;=otherBankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit3&amp;lt;=otherBankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit4&amp;lt;=otherBankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit11&amp;lt;=otherBankMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit3&amp;lt;=otherBankLimit&lt;/div&gt;&lt;div&gt;limit4&amp;lt;=otherBankLimit&lt;/div&gt;&lt;div&gt;limit11&amp;lt;=otherBankLimit&lt;/div&gt;&lt;div&gt;otherBankMonthLimit&amp;lt;=otherBankMaxMonthLimit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;// 发薪(Payroll Service)&lt;/div&gt;&lt;div&gt;payrollMonthLimit(Monthly Limit)&lt;/div&gt;&lt;div&gt;payrollLimit(Daily Limit)&lt;/div&gt;&lt;div&gt;limit8(Payroll Daily)&lt;/div&gt;&lt;div&gt;限制：&lt;/div&gt;&lt;div&gt;payrollLimit&amp;lt;=accountPayrollMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit8&amp;lt;=accountPayrollMaxDailyLimit&lt;/div&gt;&lt;div&gt;limit8&amp;lt;=payrollLimit&lt;/div&gt;&lt;div&gt;payrollMonthLimit&amp;lt;=payrollMaxMonthLimit&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-358" y="157" width="364" height="803" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-40" value="根据公司id跟账号以及状态=0（正常状态）查询限额表txn_limit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="343" y="942.5" width="351" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-41" value="设置账户和操作类型为1（新建），状态为1（待审批），操作人" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-154" y="1254" width="252" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sGchhpKF47FbVZYP23dr-42" value="设置账户和txnType=null和操作为2（更新），状态为1（待审批），操作人" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1094" width="275" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
