@@ -1,9 +1,106 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="TGS1sdJFc84AqRr_jMjH">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-1" target="OIk3cVgRNop2mU2jn5PC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-1" value="限额设置提交确认" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="267" y="-216" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-2" target="OIk3cVgRNop2mU2jn5PC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-2" value="创建审批流程" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257" y="-76" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-6" target="OIk3cVgRNop2mU2jn5PC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-12" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="OIk3cVgRNop2mU2jn5PC-11">
+          <mxGeometry x="-0.0748" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-6" target="OIk3cVgRNop2mU2jn5PC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-15" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="OIk3cVgRNop2mU2jn5PC-14">
+          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-6" value="是新建限额" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277" y="54" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-8" target="OIk3cVgRNop2mU2jn5PC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-8" value="查询限额列表加入列表" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="64" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-13" target="OIk3cVgRNop2mU2jn5PC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-18" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="OIk3cVgRNop2mU2jn5PC-17">
+          <mxGeometry x="-0.2222" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-13" target="OIk3cVgRNop2mU2jn5PC-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="254" />
+              <mxPoint x="480" y="554" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-26" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="OIk3cVgRNop2mU2jn5PC-25">
+          <mxGeometry x="0.2319" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-13" value="是更新操作" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="277" y="214" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-16" target="OIk3cVgRNop2mU2jn5PC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-16" value="查询限额表最新一条记录加入列表" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-19" target="OIk3cVgRNop2mU2jn5PC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-19" value="循环列表更新数据入库" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257" y="524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="OIk3cVgRNop2mU2jn5PC-21" target="OIk3cVgRNop2mU2jn5PC-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-21" value="将本次限额入库" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257" y="664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-23" value="返回" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="267" y="820" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-28" value="写&lt;span style=&quot;background-color: initial;&quot;&gt;流程表：flow_process&lt;/span&gt;&lt;div&gt;写审批任务表：flow_work&lt;div&gt;txnType = PREF_LIMIT&lt;/div&gt;&lt;div&gt;txnCategory = 0&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="8" y="-106.5" width="152" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-29" value="通过公司id跟状态=0和t.operation&amp;lt;&amp;gt;&#39;B&#39;查询限额表TxnLimit，返回列表数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="693" y="46" width="230" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-31" value="通过公司id跟账户和状态=0和operation&amp;lt;&amp;gt;&#39;B&#39;查询限额表TxnLimit，返回第一条数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-162" y="384" width="353" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-33" value="&lt;div&gt;更新操作类型operation = &#39;B&#39;&lt;/div&gt;&lt;div&gt;更新审批状态为提交authStatus = 1&lt;/div&gt;&lt;div&gt;更新状态为待审批status = 1&lt;/div&gt;&lt;div&gt;prefId=&lt;span style=&quot;background-color: initial;&quot;&gt;newPrefId&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="6" y="519.25" width="236" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OIk3cVgRNop2mU2jn5PC-34" value="&lt;div&gt;写限额表：txn_limit&lt;/div&gt;&lt;div&gt;写表：corp_preference&lt;/div&gt;&lt;div&gt;prefType = &#39;2&#39;&lt;/div&gt;&lt;div&gt;corpId&lt;/div&gt;&lt;div&gt;authStatus = &#39;1&#39;&lt;/div&gt;&lt;div&gt;status = &#39;1&#39;&lt;/div&gt;&lt;div&gt;prefId = prefId&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="40" y="628" width="198" height="132" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
