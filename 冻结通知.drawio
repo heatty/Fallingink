@@ -1,9 +1,150 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="y23zJC-ibaUSwDfEZjqt">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-1" target="GsDfIZI1BmOcHpEg2Qrt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-1" value="订阅冻结MQ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="126" y="54" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-2" target="GsDfIZI1BmOcHpEg2Qrt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-2" value="根据流水号查询消息订单冻结场景发送记录" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-4" target="GsDfIZI1BmOcHpEg2Qrt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-4" value="报文解析" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-7" target="GsDfIZI1BmOcHpEg2Qrt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-18" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-13">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-7" target="GsDfIZI1BmOcHpEg2Qrt-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-88" y="511" />
+              <mxPoint x="-88" y="974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-23" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-22">
+          <mxGeometry x="-0.1014" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-7" value="是全部冻结场景" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="136" y="471" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-12" target="GsDfIZI1BmOcHpEg2Qrt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-31" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-20">
+          <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-12" value="存在终态的单或者处理中的单" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="136" y="631" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="332" y="641" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-12" target="GsDfIZI1BmOcHpEg2Qrt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-30" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-17">
+          <mxGeometry x="-0.069" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-19" target="GsDfIZI1BmOcHpEg2Qrt-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-34" y="831" />
+              <mxPoint x="-34" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-19" value="组装全部冻结场景的通知参数" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="801" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-21" target="GsDfIZI1BmOcHpEg2Qrt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-28" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-25">
+          <mxGeometry x="-0.05" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-21" value="是部分冻结场景" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="136" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-24" target="GsDfIZI1BmOcHpEg2Qrt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-29" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-27">
+          <mxGeometry x="0.2326" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-24" target="GsDfIZI1BmOcHpEg2Qrt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-37" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="GsDfIZI1BmOcHpEg2Qrt-33">
+          <mxGeometry x="-0.1111" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-24" value="存在终态的单或者处理中的单" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="136" y="1100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-26" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="388" y="1110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-32" target="GsDfIZI1BmOcHpEg2Qrt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-32" value="组装部分冻结场景的通知参数" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-34" target="GsDfIZI1BmOcHpEg2Qrt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-34" value="根据客户号查询用户列表" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-38" target="GsDfIZI1BmOcHpEg2Qrt-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-38" value="过滤出需要接收消息通知的用户并根据邮箱去重" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-40" target="GsDfIZI1BmOcHpEg2Qrt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-40" value="根据客户号查询核心联络人邮箱数据，并去重" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="GsDfIZI1BmOcHpEg2Qrt-42" target="GsDfIZI1BmOcHpEg2Qrt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-42" value="用户邮箱跟联络人邮箱去重处理" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GsDfIZI1BmOcHpEg2Qrt-46" value="生成消息发送订单入库发送消息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1976" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
