@@ -1,9 +1,140 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="3Tj6N8ifsTY0XPeq51QG">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-1" target="jLiX_bE7_IBxJi5R2u_q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-1" value="打标签任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="275" y="112" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-2" value="&lt;div&gt;针对这些reject的TE by bank审批单，由系统自动在第90天（生成审批单算第一天）根据出生地、电话、居住地址、通讯地址涉及的国家/地区自动增加tax country （无法提供TIN number），&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 新增的tax country不下发HISUN，只是打标签为added by bank；&lt;/div&gt;&lt;div&gt;支持参数运行：[&quot;1111111&quot;,&quot;2222222&quot;] //bizNoList&lt;/div&gt;&lt;div&gt;没有参数默认扫描被拒绝的CBI/RBI te by bank&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="458" y="87" width="517" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-3" target="jLiX_bE7_IBxJi5R2u_q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-7" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-6">
+          <mxGeometry x="0.0196" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-3" target="jLiX_bE7_IBxJi5R2u_q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-10" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-9">
+          <mxGeometry x="-0.1489" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-3" value="存在运行参数" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="285" y="242" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-5" target="jLiX_bE7_IBxJi5R2u_q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-5" value="解析参数为bizNoList" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="63" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-8" target="jLiX_bE7_IBxJi5R2u_q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-8" value="查询t_ekyc_manual_approve生成时间是T天内并被审批拒绝的te by bank审批单，caseContent是CBI/RBI" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="244" y="416" width="162" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-11" target="jLiX_bE7_IBxJi5R2u_q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-11" value="获取到对应的审批单列表" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-13" target="jLiX_bE7_IBxJi5R2u_q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-13" value="根据bizNoList查询t_ekyc_manual_approve被审批拒绝的te by bank审批单，caseContent是CBI/RBI" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="48.5" y="394" width="149" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-16" target="jLiX_bE7_IBxJi5R2u_q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-16" value="循环列表" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-18" target="jLiX_bE7_IBxJi5R2u_q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-25" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-24">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-18" value="列表为空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="285" y="865" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-20" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="465" y="875" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-18" target="jLiX_bE7_IBxJi5R2u_q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-21">
+          <mxGeometry x="-0.02" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-23" target="jLiX_bE7_IBxJi5R2u_q-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-23" value="根据userId查询customerNo" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-26" target="jLiX_bE7_IBxJi5R2u_q-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-26" value="根据客户号查询核心信息" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-28" target="jLiX_bE7_IBxJi5R2u_q-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-31">
+          <mxGeometry x="0.1333" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-28" target="jLiX_bE7_IBxJi5R2u_q-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-36" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;" vertex="1" connectable="0" parent="jLiX_bE7_IBxJi5R2u_q-35">
+          <mxGeometry x="-0.2667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-28" value="查询异常" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1305" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="821" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="103" y="821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-30" value="打印告警" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="43" y="1315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="jLiX_bE7_IBxJi5R2u_q-34" target="jLiX_bE7_IBxJi5R2u_q-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-34" value="获取需要打标签的税务国家" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLiX_bE7_IBxJi5R2u_q-39" value="更新打标的税务国家" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1638" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
