@@ -967,6 +967,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ISMIpiO5yM2ydOalU18I-305" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="3505" y="1043" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ISMIpiO5yM2ydOalU18I-306" value="AML_30 days notification" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="6951" y="1279.5" width="163" height="34" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
