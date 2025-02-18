@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="第 1 页" id="rTBD2qRRZxsazja_bbIo">
-    <mxGraphModel dx="1434" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="1220" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -972,6 +972,9 @@
         </mxCell>
         <mxCell id="ISMIpiO5yM2ydOalU18I-306" value="AML_30 days notification" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="6951" y="1279.5" width="163" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ISMIpiO5yM2ydOalU18I-307" value="执行实时动作：添加A01并发送消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="6582" y="503.5" width="211" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
