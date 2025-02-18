@@ -250,19 +250,19 @@
           <mxGeometry x="2086" y="739" width="230" height="87" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-79" value="com.zatech.bank.ekyc.provider.process.approve.service.noedit.impl.mcv.&lt;div&gt;McvTriggerEventManualApproveNoEditServiceImpl#getRejectCode&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="2935" y="-78.25" width="593" height="66" as="geometry" />
+          <mxGeometry x="2710" y="-81.75" width="593" height="66" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sC6QhvrOR2ep6ZkoYe8O-80" target="sC6QhvrOR2ep6ZkoYe8O-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-80" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="3171" y="20" width="100" height="100" as="geometry" />
+          <mxGeometry x="2946" y="16.5" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sC6QhvrOR2ep6ZkoYe8O-81" target="sC6QhvrOR2ep6ZkoYe8O-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-81" value="根据caseType，rejectCategory，rejectReason,&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;查询t_audit_param&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3161" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="2936" y="216.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sC6QhvrOR2ep6ZkoYe8O-83" target="sC6QhvrOR2ep6ZkoYe8O-85">
           <mxGeometry relative="1" as="geometry" />
@@ -281,16 +281,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-83" value="auditParam为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3181" y="350" width="80" height="80" as="geometry" />
+          <mxGeometry x="2956" y="346.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-85" value="返回空字符串" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="3398" y="360" width="100" height="60" as="geometry" />
+          <mxGeometry x="3173" y="356.5" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-88" value="auditParam第一条记录的caseRisk为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3181" y="510" width="80" height="80" as="geometry" />
+          <mxGeometry x="2956" y="506.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-91" value="返回第一条记录的paramCategory" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="3415" y="520" width="100" height="60" as="geometry" />
+          <mxGeometry x="3190" y="516.5" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sC6QhvrOR2ep6ZkoYe8O-88" target="sC6QhvrOR2ep6ZkoYe8O-91">
           <mxGeometry relative="1" as="geometry" />
@@ -301,7 +301,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-94" value="rejectCode：过滤出auditParam中满足caseRisk的第一条paramCategory，不存在则默认为空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="3122" y="690" width="198" height="81" as="geometry" />
+          <mxGeometry x="2897" y="686.5" width="198" height="81" as="geometry" />
         </mxCell>
         <mxCell id="sC6QhvrOR2ep6ZkoYe8O-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="sC6QhvrOR2ep6ZkoYe8O-88" target="sC6QhvrOR2ep6ZkoYe8O-94">
           <mxGeometry relative="1" as="geometry" />
